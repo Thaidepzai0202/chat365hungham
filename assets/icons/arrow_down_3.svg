@@ -1,0 +1,19 @@
+<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="paint0_linear_2723_112209" x1="16.5" y1="7" x2="-3.5" y2="9" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#3B86D4"/>
+            <stop offset="1" stop-color="#7CB4ED"/>
+        </linearGradient>
+        <clipPath id="clip0_2723_112209">
+            <rect width="18" height="18" fill="white" transform="matrix(0 1 -1 0 18 0)"/>
+        </clipPath>
+    </defs>
+<g id="Frame 1000009885" clip-path="url(#clip0_2723_112209)">
+<circle id="Ellipse 1" cx="9" cy="9" r="9" transform="rotate(90 9 9)" fill="url(#paint0_linear_2723_112209)"/>
+<g id="Group 635607">
+<g id="Group 635166">
+<path id="Vector" d="M5.88412 7.7998L9.04204 10.9577L12.2 7.7998" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</svg>

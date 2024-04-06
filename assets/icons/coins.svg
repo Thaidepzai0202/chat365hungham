@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<style type="text/css">
+	
+		.st0{fill:none;stroke:url(#Icon_00000112620430789847358030000001119831155173943184_);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<g id="coins-stacked-02">
+	
+		<linearGradient id="Icon_00000003072653715673005080000014176305086912709792_" gradientUnits="userSpaceOnUse" x1="12" y1="23" x2="12" y2="5" gradientTransform="matrix(1 0 0 -1 0 26)">
+		<stop  offset="0" style="stop-color:#FAA156"/>
+		<stop  offset="1" style="stop-color:#EE8227"/>
+	</linearGradient>
+	
+		<path id="Icon" style="fill:none;stroke:url(#Icon_00000003072653715673005080000014176305086912709792_);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;" d="
+		M13,5c0,1.1-2.5,2-5.5,2C4.5,7,2,6.1,2,5 M13,5c0-1.1-2.5-2-5.5-2C4.5,3,2,3.9,2,5 M13,5v4.5c-1.2,0.4-2,0.9-2,1.5 M2,5v12
+		c0,1.1,2.5,2,5.5,2c1.3,0,2.5-0.2,3.5-0.5V11 M2,9c0,1.1,2.5,2,5.5,2c1.3,0,2.5-0.2,3.5-0.5 M2,13c0,1.1,2.5,2,5.5,2
+		c1.3,0,2.5-0.2,3.5-0.5 M22,11c0,1.1-2.5,2-5.5,2S11,12.1,11,11 M22,11c0-1.1-2.5-2-5.5-2S11,9.9,11,11 M22,11v8c0,1.1-2.5,2-5.5,2
+		S11,20.1,11,19v-8 M22,15c0,1.1-2.5,2-5.5,2S11,16.1,11,15"/>
+</g>
+</svg>

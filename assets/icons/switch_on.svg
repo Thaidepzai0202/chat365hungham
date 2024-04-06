@@ -1,0 +1,20 @@
+<svg width="40" height="26" viewBox="0 0 40 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="40" height="26" fill="#DFCBCB"/>
+<rect id="Rectangle 3464966" x="-5614" y="-328" width="9196" height="2610" rx="218" stroke="#7C87E2" stroke-width="50"/>
+<g id="C&#225;&#186;&#163;m x&#195;&#186;c">
+<rect width="414" height="967" transform="translate(-358 -118)" fill="#F7F8FC"/>
+<g id="Frame 1321315791">
+<g id="Frame 1321315784">
+<g id="switch 2">
+<path id="Vector" d="M29.4141 2.6001H10.5859C4.74883 2.6001 0 7.23021 0 12.9214C0 18.6126 4.74883 23.2427 10.5859 23.2427H29.4141C35.2512 23.2427 40 18.6126 40 12.9214C40 7.23021 35.2512 2.6001 29.4141 2.6001ZM29.4141 20.9575C24.8693 20.9575 21.1719 17.3526 21.1719 12.9214C21.1719 8.49032 24.8693 4.88525 29.4141 4.88525C33.9588 4.88525 37.6562 8.49032 37.6562 12.9214C37.6562 17.3526 33.9588 20.9575 29.4141 20.9575Z" fill="url(#paint0_linear_1_95660)"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1_95660" x1="0.945946" y1="9.48096" x2="39.2451" y2="10.1826" gradientUnits="userSpaceOnUse">
+<stop stop-color="#42D677"/>
+<stop offset="1" stop-color="#31CB53"/>
+</linearGradient>
+</defs>
+</svg>

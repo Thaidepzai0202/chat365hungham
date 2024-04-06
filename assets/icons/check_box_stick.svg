@@ -1,0 +1,17 @@
+<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ch&#225;&#187;&#141;n">
+<g clip-path="url(#clip0_2723_130112)">
+<rect id="Rectangle 3464944" y="0.5" width="24" height="24" rx="5" fill="url(#paint0_linear_2723_130112)"/>
+<path id="Vector" d="M17.6422 5.96676L9.2481 15.6557L6.35616 12.3311C5.81644 11.7108 4.94306 11.7115 4.40444 12.3331C3.86473 12.9553 3.86528 13.9648 4.40555 14.5864L8.27362 19.035C8.81334 19.656 9.68728 19.6547 10.2259 19.0331L19.5961 8.21751C20.1347 7.59527 20.1347 6.58772 19.5956 5.96612C19.0558 5.34452 18.1814 5.34452 17.6422 5.96676Z" fill="white"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_2723_130112" x1="12" y1="0.5" x2="12" y2="24.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4193DB"/>
+<stop offset="1" stop-color="#4BA6E3"/>
+</linearGradient>
+<clipPath id="clip0_2723_130112">
+<rect y="0.5" width="24" height="24" rx="5" fill="white"/>
+</clipPath>
+</defs>
+</svg>

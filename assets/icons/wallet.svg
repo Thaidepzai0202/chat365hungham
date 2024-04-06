@@ -1,0 +1,7 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Wallet">
+<path id="Rectangle 114" d="M15.832 6.66683V5.3335C15.832 4.22893 14.9366 3.3335 13.832 3.3335H5.33203C4.22746 3.3335 3.33203 4.22892 3.33203 5.33349V14.6668C3.33203 15.7714 4.22746 16.6668 5.33203 16.6668H13.832C14.9366 16.6668 15.832 15.7714 15.832 14.6668V13.3335" stroke="#F99C4D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="Rectangle 115" x="10.832" y="6.6665" width="6.66667" height="6.66667" rx="1" stroke="#F99C4D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle id="Ellipse 132" cx="14.168" cy="10" r="1.25" fill="#F99C4D"/>
+</g>
+</svg>

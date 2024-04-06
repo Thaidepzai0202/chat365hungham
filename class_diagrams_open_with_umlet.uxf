@@ -1,0 +1,3285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>5</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>740</x>
+      <y>2345</y>
+      <w>95</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>ChatScreen
+--
+Màn hình sau khi bấm vào 
+cuộc trò chuyện. Có thanh
+input để soạn tin nhắn, gửi
+tin nhắn, ảnh, sticker,...
+AppBar có AI365, video, 
+phone call</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>635</x>
+      <y>2450</y>
+      <w>60</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>bg=green
+ChatDetailBloc</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>740</x>
+      <y>2450</y>
+      <w>95</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>MessageItem
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>860</x>
+      <y>2495</y>
+      <w>95</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>MessageModel
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>830</x>
+      <y>2470</y>
+      <w>40</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>860</x>
+      <y>2550</y>
+      <w>55</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>bg=YELLOW
+ChatItemModel</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>2405</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>250.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1065</x>
+      <y>2200</y>
+      <w>95</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>DetailMessageScreen
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>385</x>
+      <y>1870</y>
+      <w>105</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>FilterConversationsByExt
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>1885</y>
+      <w>95</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>FilterConversationByExt
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>380</x>
+      <y>1845</y>
+      <w>115</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Có cái nào thừa không? Có ghép
+được vào nhau không?</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>880</x>
+      <y>1935</y>
+      <w>95</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>ChatConversationScreen
+--
+Màn hình Trò chuyện.
+
+appBar gồm thanh tìm kiếm, 
+quét QR, [+] thêm cuộc 
+trò chuyện...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>740</x>
+      <y>2070</y>
+      <w>95</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>ChatConversationBody
+--
+Phần body của 
+ChatConversationScreen,
+hiện các cuộc trò chuyện của
+người dùng</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>2010</y>
+      <w>125</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>230.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>620</x>
+      <y>2070</y>
+      <w>95</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>SuggestContactWidget
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>710</x>
+      <y>2010</y>
+      <w>180</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>340.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1110</x>
+      <y>1815</y>
+      <w>95</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>NavigationScreen
+--
+Chứa bottomAppBar với các
+nút Trò chuyện, Danh bạ, 
+Tiện ích, Thông báo,...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>920</x>
+      <y>1890</y>
+      <w>200</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>380.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1000</x>
+      <y>1935</y>
+      <w>95</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>ContactScreen
+--
+Màn hình Danh bạ.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1110</x>
+      <y>1935</y>
+      <w>95</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>FeatureScreen
+--
+Màn hình Tiện ích</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1215</x>
+      <y>1935</y>
+      <w>95</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>NotificationScreen
+--
+Màn hình Thông báo</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1320</x>
+      <y>1935</y>
+      <w>95</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>ProfileScreen
+--
+Màn hình Hồ sơ</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1040</x>
+      <y>1890</y>
+      <w>100</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>180.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1150</x>
+      <y>1890</y>
+      <w>15</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1175</x>
+      <y>1890</y>
+      <w>100</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;180.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1200</x>
+      <y>1890</y>
+      <w>175</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;330.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>880</x>
+      <y>1830</y>
+      <w>95</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>bg=green
+ChatConversationBloc</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>920</x>
+      <y>1865</y>
+      <w>15</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>620</x>
+      <y>2010</y>
+      <w>95</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>MbsOption
+--
+Struct chứa hàm onTap và
+icon cho 
+ModalBottomSheetItem</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>620</x>
+      <y>1915</y>
+      <w>95</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>ModalBottomSheetItem
+--
+Các nút bấm, lựa chọn, được 
+đặt trong ModalBottomSheet, 
+tùy biến với từng screen. Ví
+dụ:
+
+- ChatConversationScreen</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>665</x>
+      <y>1980</y>
+      <w>15</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>970</x>
+      <y>1855</y>
+      <w>150</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;280.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>710</x>
+      <y>1955</y>
+      <w>180</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>340.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>2310</y>
+      <w>15</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>740</x>
+      <y>2185</y>
+      <w>105</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>ConversationItem
+--
+Là một cuộc trò chuyện trong
+danh sách các cuộc trò chuyện
+của người dùng
+- Có ava, tên, thời điểm nhắn
+- Hiện một đoạn ngắn
+tin nhắn?
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>2125</y>
+      <w>15</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>740</x>
+      <y>2525</y>
+      <w>95</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>MessageBox
+--
+Hiển thị tin nhắn theo 
+MessageType của nó ???</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>2405</y>
+      <w>15</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>2345</y>
+      <w>95</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>UserListTileAppBar
+--
+App bar trong chat, bao gồm
+- Avatar
+- Tên
+- Thời điểm lần cuối truy cập
+- Action buttons (AI365, call,...)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>700</x>
+      <y>2375</y>
+      <w>50</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>570</x>
+      <y>2375</y>
+      <w>50</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>2365</y>
+      <w>115</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>DisplayImageWithStatusBadge
+--
+Hiện ava và trạng thái ("Đang hoạt
+động", </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>2365</y>
+      <w>65</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>DisplayAvatar</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>2400</y>
+      <w>65</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>bg=yellow
+IUserInfo</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>2370</y>
+      <w>50</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>2380</y>
+      <w>50</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>2565</y>
+      <w>15</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>830</x>
+      <y>2480</y>
+      <w>40</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>860</x>
+      <y>2435</y>
+      <w>95</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>ChoiceDialogItem
+--
+Những hành động có thể làm
+với tin nhắn. Ví dụ: Lưu ảnh,
+gửi danh thiếp, chia sẻ, trả
+lời, copy,...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>830</x>
+      <y>2455</y>
+      <w>40</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>2490</y>
+      <w>15</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>1850</y>
+      <w>110</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;440.0;10.0;10.0;200.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>875</x>
+      <y>2185</y>
+      <w>60</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>bg=green
+UserInfoBloc</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>840</x>
+      <y>2190</y>
+      <w>45</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;130.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>2275</y>
+      <w>95</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>ProfileCubit
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>700</x>
+      <y>2295</y>
+      <w>50</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>875</x>
+      <y>2245</y>
+      <w>60</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>bg=green
+ChatDetailBloc</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>840</x>
+      <y>2250</y>
+      <w>45</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1065</x>
+      <y>2130</y>
+      <w>95</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>ChoiceDialogType
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1105</x>
+      <y>2170</y>
+      <w>15</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>660</x>
+      <y>1650</y>
+      <w>70</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>bg=pink
+AppRouter</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>755</x>
+      <y>1650</y>
+      <w>55</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>bg=pink
+AppPages</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>660</x>
+      <y>1705</y>
+      <w>70</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>bg=pink
+PageConfig</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>615</x>
+      <y>2175</y>
+      <w>100</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>ConversationItemAds
+--
+Là một cuộc trò chuyện (giả) 
+trong danh sách các cuộc trò 
+chuyện của người dùng.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>525</x>
+      <y>1835</y>
+      <w>365</w>
+      <h>350</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>180.0;680.0;10.0;680.0;10.0;10.0;710.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>710</x>
+      <y>2125</y>
+      <w>40</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>300</x>
+      <y>2205</y>
+      <w>325</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>630.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>205</x>
+      <y>2160</y>
+      <w>100</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>ChatScreenAd
+--
+Nhái ngoại hình ChatScreen.
+Người dùng không thể nhập
+tin nhắn, gọi, gửi sticker,...
+Chỉ có thể bấm vào các nút
+quảng cáo đã định sẵn</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>2270</y>
+      <w>100</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>AdsFloatingButtonURL
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>185</x>
+      <y>2255</y>
+      <w>130</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>{Abstract}
+AdsFloatingButton
+--
+Các nút bấm quảng cáo bay bay trên
+thanh chat
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>95</x>
+      <y>2270</y>
+      <w>100</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>180.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>245</x>
+      <y>2225</y>
+      <w>15</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2100</x>
+      <y>20</y>
+      <w>90</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>bg=pink
+SINGLETON
+NAMESPACE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2100</x>
+      <y>50</y>
+      <w>90</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>bg=green
+BLOC / CUBIT</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2100</x>
+      <y>80</y>
+      <w>90</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>bg=yellow
+MODEL</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2100</x>
+      <y>290</y>
+      <w>90</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>bg=red
+???</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2100</x>
+      <y>110</y>
+      <w>90</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>WIDGETS
+bg=CYAN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>2090</x>
+      <y>0</y>
+      <w>110</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes>Giải thích màu sắc:</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1110</x>
+      <y>1365</y>
+      <w>95</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>main.dart
+--
+- Kết nối firebase</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>725</x>
+      <y>1655</y>
+      <w>40</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>690</x>
+      <y>1670</y>
+      <w>15</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2575</x>
+      <y>825</y>
+      <w>125</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>bg=pink
+ApiPath
+--
+- Chứa tất cả những URL gọi API
+--
+*Ưu Điểm*
+Các URL được nối với nhau. Sửa đổi 
+domain name đơn giản chỉ cần sửa
+một biến duy nhất.
+--
+*Nhược Điểm*
+File quá to và dài. Việc thêm, sắp xếp
+các URL càng về sau càng hỗn độn
+--
+*Giải Pháp*
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2100</x>
+      <y>170</y>
+      <w>90</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>???
+bg=DARK_GRAY</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2100</x>
+      <y>200</y>
+      <w>90</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>bg=BLUE
+Repo</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2100</x>
+      <y>230</y>
+      <w>90</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Socket
+bg=MAGENTA</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2100</x>
+      <y>260</y>
+      <w>90</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>???
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2100</x>
+      <y>140</y>
+      <w>90</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>VIEW
+bg=LIGHT_GRAY</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2710</x>
+      <y>865</y>
+      <w>125</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>bg=pink
+AppConstant
+--
+- Chứa một số const của app (Kích cỡ
+widget, giới hạn down/upload, 
+hotline,...)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2710</x>
+      <y>755</y>
+      <w>125</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>bg=pink
+AssetPath
+--
+- Chứa link đến một số ảnh/icon
+của app
+--
+*Nhược Điểm*
+Không hiểu sao đã có Images rồi, lại
+còn có AssetPath
+--
+*Giải Pháp*
+Merge vào cùng Images. Nhưng có lẽ
+sẽ tốn công, mà giá trị đem lại chẳng
+được bao nhiêu</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2575</x>
+      <y>755</y>
+      <w>125</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>bg=pink
+Images
+--
+- Chứa link đến các ảnh/icon/sticker
+của app
+--
+*Ghi Chú*
+Thử sửa để tự sinh ra bằng
+tool flutter_gen</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3930</x>
+      <y>1450</y>
+      <w>90</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>bg=LIGHT_GRAY
+AppLayout</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3675</x>
+      <y>1440</y>
+      <w>110</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>bg=LIGHT_GRAY
+ChoosePosition
+--
+Chọn chức vụ: Nhân viên,
+Cá nhân, Công ty
+isLogIn = True tức là đăng nhập
+isLogIn = False tức là đăng ký
+--
+*Note*
+Nên thay isLogIn thành enum cho
+dễ hiểu</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3565</x>
+      <y>1470</y>
+      <w>70</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>bg=LIGHT_GRAY
+LoginOrSignUp</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3630</x>
+      <y>1480</y>
+      <w>55</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3810</x>
+      <y>1440</y>
+      <w>80</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>bg=LIGHT_GRAY
+InPutLogin
+--
+Điền tên &amp; mật khẩu</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3780</x>
+      <y>1455</y>
+      <w>40</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3885</x>
+      <y>1455</y>
+      <w>55</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3505</x>
+      <y>1475</y>
+      <w>70</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1110</x>
+      <y>1505</y>
+      <w>95</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>MyApp
+--
+- Chứa MultiBlocProvider,
+cung cấp Bloc cho cả app
+- Init FlutterCallkit. Chắc là 
+để gọi VoIP?</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1150</x>
+      <y>1555</y>
+      <w>15</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1150</x>
+      <y>1395</y>
+      <w>15</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>980</x>
+      <y>1540</y>
+      <w>95</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>HiveService
+--
+??</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>980</x>
+      <y>1475</y>
+      <w>95</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>ChatConversationRepo
+-
+??</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1070</x>
+      <y>1490</y>
+      <w>50</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>80.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1070</x>
+      <y>1525</y>
+      <w>50</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1270</x>
+      <y>1520</y>
+      <w>95</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>LoginDescription1
+--
+Màn hình đăng nhập lần đầu</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1385</x>
+      <y>1520</y>
+      <w>95</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>LoginDescription2
+--
+Màn hình đăng nhập lần đầu</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1200</x>
+      <y>1530</y>
+      <w>80</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1270</x>
+      <y>1780</y>
+      <w>95</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>AppLockPinCodeScreen
+--
+Màn hình khóa PIN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1270</x>
+      <y>1720</y>
+      <w>95</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>LocalAuth</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1200</x>
+      <y>1530</y>
+      <w>80</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;140.0;420.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1200</x>
+      <y>1530</y>
+      <w>80</w>
+      <h>275</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;140.0;530.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1200</x>
+      <y>1790</y>
+      <w>80</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1200</x>
+      <y>1735</y>
+      <w>80</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;240.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>870</x>
+      <y>770</y>
+      <w>95</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>bg=pink
+AppRouter
+--
+Dùng Navigator theo cách 
+riêng của app</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2425</x>
+      <y>810</y>
+      <w>140</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>bg=pink
+AppPages
+--
+- Chứa enum định danh các page của app
+- Thêm page vào app bằng cách thêm vào
+enum một giá trị, sau đó thêm một dòng
+case vào cục switch to đùng
+--
+*Nhược Điểm*
+- !!! Switch case đến chết</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>975</x>
+      <y>770</y>
+      <w>95</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>bg=pink
+PageConfig
+--
+?</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3735</x>
+      <y>1725</y>
+      <w>75</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>bg=pink
+ApiClient</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3570</x>
+      <y>1725</y>
+      <w>125</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>bg=blue
+AuthRepo
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3600</x>
+      <y>1720</y>
+      <w>15</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3690</x>
+      <y>1725</y>
+      <w>55</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3560</x>
+      <y>1770</y>
+      <w>140</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>bg=blue
+GetTokenRepo
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3625</x>
+      <y>1745</y>
+      <w>15</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3695</x>
+      <y>1735</y>
+      <w>95</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>170.0;10.0;170.0;120.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3440</x>
+      <y>1770</y>
+      <w>95</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>bg=green
+LoginCubit
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3480</x>
+      <y>1730</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>180.0;10.0;10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2710</x>
+      <y>920</y>
+      <w>140</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>bg=pink
+LocalStorageKey
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3385</x>
+      <y>390</y>
+      <w>155</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>bg=blue
+ChatRepo
+--
+Tương tác với API tin nhắn
+- Gửi/Gửi lại, thu hồi,...
+- Đánh dấu đã đọc
+- Thêm bạn
+- Hiện trạng thái đang nhập
+- Gửi tin nhắn
+- Lấy thông tin cuộc trò chuyện (ChatItemModel)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>2205</x>
+      <y>0</y>
+      <w>110</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes>Giải thích viết tắt:
+CTC: Cuộc trò chuyện</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2850</x>
+      <y>870</y>
+      <w>125</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>bg=pink
+HiveService
+--
+Lưu, tải lại dữ liệu local</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3410</x>
+      <y>1305</y>
+      <w>90</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>bg=LIGHT_GRAY
+MyApp</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3405</x>
+      <y>1430</y>
+      <w>105</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>bg=green
+NotificationBloc
+LoginCubit
+SignUpCubit
+AuthBloc
+ChatBloc
+NetworkCubit
+ThemeCubit
+ChatConversationBloc
+ContactBloc
+ChatConversationCubit
+UserRequestBloc
+UserInfoBloc</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3450</x>
+      <y>1400</y>
+      <w>15</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4015</x>
+      <y>385</y>
+      <w>145</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>bg=green
+ProfileCubit
+--
+Tương tác, chỉnh sửa CTC
+(cả group lẫn solo)
+--
+- Chặn tin nhắn
+- Cập nhật biệt danh
+- Lấy ConversationId của CTC giữa 2 người</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2850</x>
+      <y>755</y>
+      <w>125</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>bg=pink
+GeneratorService
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>2300</y>
+      <w>100</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>AdsFloatingButtonAppPage
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>95</x>
+      <y>2280</y>
+      <w>100</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>180.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>2155</y>
+      <w>120</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>bg=yellow
+AdsModel</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>415</x>
+      <y>2165</y>
+      <w>210</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>400.0;70.0;10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1110</x>
+      <y>1580</y>
+      <w>95</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>bg=green
+AuthBloc
+ChatBloc
+DownloaderCubit
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1150</x>
+      <y>1625</y>
+      <w>15</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;380.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>4350</x>
+      <y>1570</y>
+      <w>30</w>
+      <h>115</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>40.0;210.0;10.0;210.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>865</x>
+      <y>2360</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>ReminderDisplay
+--
+Tin nhắn thông báo</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>965</x>
+      <y>2355</y>
+      <w>95</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>AppointmentPage
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>830</x>
+      <y>2370</y>
+      <w>45</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>930</x>
+      <y>2370</y>
+      <w>45</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4165</x>
+      <y>435</y>
+      <w>100</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>bg=green
+PrivacyCubit
+--
+Check có chặn nhau không
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4270</x>
+      <y>480</y>
+      <w>95</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>bg=green
+FriendCubit
+--
+- Lấy danh sách bạn bè
+- Check trạng thái kết bạn
+- Đổi trạng thái kết bạn
+- Xóa yêu cầu kết bạn</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2585</x>
+      <y>605</y>
+      <w>105</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>bg=green
+TypingDetectorBloc
+--
+Lắng nghe/gửi packet socket
+về việc có người đang gõ
+tin nhắn</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4270</x>
+      <y>385</y>
+      <w>145</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>bg=green
+ChatBloc
+--
+- Phản ứng với các sự kiện của
+tin nhắn: Thu hồi, chỉnh sửa,...
+- Gửi tin nhắn
+- Đánh dấu đã đọc trong CTC
+- ...?</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2435</x>
+      <y>465</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>bg=green
+NetworkCubit
+--
+Kiểm tra tình trạng kết nối internet/socket
+Bắn event có/mất mạng qua stream</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2435</x>
+      <y>605</y>
+      <w>105</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>bg=green
+ChatConversationBloc
+--
+- Tải CTC
+- Thêm/Xóa CTC yêu thích
+- Chứa bản nháp các CTC</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4015</x>
+      <y>455</y>
+      <w>145</w>
+      <h>85</h>
+    </coordinates>
+    <panel_attributes>bg=green
+ChatDetailBloc
+--
+- Lấy thông tin 1 cuộc trò chuyện (CTC)
+- Tải danh sách tin nhắn của CTC
+// ???- Sửa trạng thái CTC yêu thích
+- Tạo CTC bí mật
+- Thêm thành viên
+- Đánh dấu đã đọc (?)
+- Ghim CTC (?)
+- ...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2435</x>
+      <y>380</y>
+      <w>130</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>bg=green
+UnreadMessageCounterCubit
+--
+Lắng nghe các sự kiện từ ChatRepo,
+đếm số tin nhắn chưa đọc của một CTC</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2435</x>
+      <y>415</y>
+      <w>95</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>bg=green
+DownloaderCubit
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4165</x>
+      <y>385</y>
+      <w>100</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>bg=green
+UserInfoBloc
+--
+Phản ứng với những sự kiện
+thay đổi thông tin người dùng
+như đổi ava, tên, trạng thái,...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3545</x>
+      <y>390</y>
+      <w>160</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>bg=blue
+UserInfoRepo
+--
+Nhận các event đổi tên, ava, 
+group ava,...
+Lấy userInfo, conversation info
+theo id người, CTC,
+Quảng bá thay đổi của một người / CTC 
+tới tất cả người khác?
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3405</x>
+      <y>1355</y>
+      <w>105</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>bg=blue
+AuthRepo
+UserInfoRepo
+ChatRepo
+ChatConversationRepo
+GetTokenRepo</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3385</x>
+      <y>470</y>
+      <w>155</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>bg=blue
+ConversationCreationRepo
+--
+- Tạo chat solo (// Bị comment rồi)
+- Tạo chat nhóm 
+- Đăng xuất thiết bị lạ (??? Sao lại ở đây ???)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4420</x>
+      <y>385</y>
+      <w>105</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>bg=green
+CreateConversationCubit
+--
+- Tạo nhóm chat mới</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4530</x>
+      <y>385</y>
+      <w>105</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>bg=green
+ContactListCubit
+--
+- Lấy danh sách liên hệ</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3810</x>
+      <y>1485</y>
+      <w>80</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>bg=LIGHT_GRAY
+InPutSignup
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3780</x>
+      <y>1495</y>
+      <w>40</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3800</x>
+      <y>1405</y>
+      <w>110</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>bg=LIGHT_GRAY
+ConfirmOtpWebViewScreen</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>4015</x>
+      <y>1455</y>
+      <w>65</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>110.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4065</x>
+      <y>1530</y>
+      <w>360</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4070</x>
+      <y>1535</y>
+      <w>95</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>bg=LIGHT_GRAY
+AppFeatures
+--
+Thanh mỏng, chứa các nút:
+Nhắn tin, danh bạ,...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4170</x>
+      <y>1535</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>bg=LIGHT_GRAY
+AppSubLayout
+--
+Tên, ava người dùng, role</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4295</x>
+      <y>1535</y>
+      <w>125</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>bg=LIGHT_GRAY
+AppMainLayout
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4070</x>
+      <y>1450</y>
+      <w>90</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>bg=green
+AppLayoutCubit</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3450</x>
+      <y>1320</y>
+      <w>15</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>4110</x>
+      <y>1485</y>
+      <w>15</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>4085</x>
+      <y>1485</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+(1)
+Đổi
+màn</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>4155</x>
+      <y>1460</y>
+      <w>215</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+(2)
+Đổi
+màn</panel_attributes>
+    <additional_attributes>410.0;70.0;410.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>4220</x>
+      <y>1465</y>
+      <w>15</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4185</x>
+      <y>1495</y>
+      <w>80</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>AppSubPageHelper</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4320</x>
+      <y>1495</y>
+      <w>80</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>AppMainPageHelper</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>4220</x>
+      <y>1510</y>
+      <w>15</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>4355</x>
+      <y>1510</y>
+      <w>15</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4385</x>
+      <y>1590</y>
+      <w>100</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>bg=LIGHT_GRAY
+AfterLoginChat
+--
+Sau khi đăng nhập, chưa hiện
+chat, hiện lời chào</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>4350</x>
+      <y>1605</y>
+      <w>45</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>4195</x>
+      <y>1570</y>
+      <w>40</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;90.0;60.0;90.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4095</x>
+      <y>1595</y>
+      <w>105</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>bg=LIGHT_GRAY
+ChatConversationScreen
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3940</x>
+      <y>1595</y>
+      <w>105</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>bg=LIGHT_GRAY
+ChatConversationBody
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3940</x>
+      <y>1650</y>
+      <w>105</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>bg=LIGHT_GRAY
+HiddenConversationBody
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>4040</x>
+      <y>1610</y>
+      <w>65</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;110.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>4040</x>
+      <y>1620</y>
+      <w>65</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;100.0;70.0;100.0;110.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3815</x>
+      <y>1655</y>
+      <w>95</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>bg=cyan
+HiddenConversationItem
+--
+Một cuộc trò chuyện
+trong danh sách ẩn</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3815</x>
+      <y>1595</y>
+      <w>95</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>bg=cyan
+ConversationItem2
+--
+Một cuộc trò chuyện
+trong danh sách</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3905</x>
+      <y>1610</y>
+      <w>45</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3905</x>
+      <y>1670</y>
+      <w>45</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3690</x>
+      <y>1600</y>
+      <w>95</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>bg=yellow
+ConversationModel</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3780</x>
+      <y>1610</y>
+      <w>45</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3550</x>
+      <y>1605</y>
+      <w>100</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>bg=light_gray
+CreateNewGroupChatDialog</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3550</x>
+      <y>1650</y>
+      <w>100</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>bg=green
+ContactListCubit</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3595</x>
+      <y>1625</y>
+      <w>15</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3715</x>
+      <y>390</y>
+      <w>125</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>bg=blue
+GroupProfileRepo
+Xử lí chat nhóm
+--
+- Lấy thông tin CTC
+- Đổi tên, avatar
+- Lấy/Đổi kiểm duyệt (? Approval ?)
+- Cập nhật phó nhóm
+- Thêm/xóa/lấy thành viên
+- Lấy danh sách xin vào ??
+- Đổi trạng thái (?status?)
+- Đổi admin
+- Xóa nhóm
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3545</x>
+      <y>460</y>
+      <w>160</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>bg=blue
+ChatDetailRepo
+--
+- Lấy thông tin CTC
+- Đổi mật khẩu
+- Cập nhật/Lấy xác thực 2 lớp
+- Lấy danh sách CTC
+- Tìm kiếm tin nhắn
+- Đổi trạng thái CTC yêu thích
+- Lấy 1 tin nhắn??
+- Lấy thông tin chi tiết (bằng id_chat của cái gì?)
+- Lấy thông tin RaoNhanh 
+- Xóa tin nhắn
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4370</x>
+      <y>1665</y>
+      <w>65</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>bg=LIGHT_GRAY
+ChatScreen
+--
+Màn hình nhắn tin</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4465</x>
+      <y>1665</y>
+      <w>75</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>MessageItem</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>4430</x>
+      <y>1675</y>
+      <w>45</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2435</x>
+      <y>510</y>
+      <w>125</w>
+      <h>85</h>
+    </coordinates>
+    <panel_attributes>bg=green
+TypingDetectorBloc
+--
+Lưu ID của những người đang gõ bàn
+phím trong 1 cuộc trò chuyện, 
+-
+Mỗi cuộc trò chuyện được gắn
+một cái. Bị ChatConversationBloc
+quản lý
+
+Mỗi khi logout, ChatConversationBloc
+close() nó
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2425</x>
+      <y>900</y>
+      <w>70</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>bg=MAGENTA
+ChatClient
+--
+Nguồn data realtime
+dựa trên socket</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>1790</x>
+      <y>355</y>
+      <w>615</w>
+      <h>380</h>
+    </coordinates>
+    <panel_attributes>Repo</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>3360</x>
+      <y>345</y>
+      <w>1320</w>
+      <h>830</h>
+    </coordinates>
+    <panel_attributes>App PC - Thay đổi so với Chung</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1800</x>
+      <y>375</y>
+      <w>140</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>bg=blue
+AuthRepo
+--
+- Chứa thông tin người dùng hiện tại:
+Avatar, ID, name, comID,...
+- Thực hiện chức năng đăng nhập??
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2425</x>
+      <y>755</y>
+      <w>140</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>bg=pink
+Logger
+--
+Dùng thay print() để in log ra console</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>1715</x>
+      <y>330</y>
+      <w>1365</w>
+      <h>905</h>
+    </coordinates>
+    <panel_attributes>Chung ở cả hai app (Mobile + PC)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>2425</x>
+      <y>355</y>
+      <w>615</w>
+      <h>380</h>
+    </coordinates>
+    <panel_attributes>Cubit / Bloc</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>220</x>
+      <y>350</y>
+      <w>1280</w>
+      <h>1000</h>
+    </coordinates>
+    <panel_attributes>App Mobile - Thay đổi so với Chung</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>235</x>
+      <y>375</y>
+      <w>615</w>
+      <h>380</h>
+    </coordinates>
+    <panel_attributes>Repo</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>870</x>
+      <y>375</y>
+      <w>615</w>
+      <h>380</h>
+    </coordinates>
+    <panel_attributes>Cubit / Bloc</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>3375</x>
+      <y>370</y>
+      <w>615</w>
+      <h>380</h>
+    </coordinates>
+    <panel_attributes>Repo</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>4010</x>
+      <y>370</y>
+      <w>635</w>
+      <h>380</h>
+    </coordinates>
+    <panel_attributes>Cubit / Bloc</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1495</x>
+      <y>645</y>
+      <w>230</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>440.0;10.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3075</x>
+      <y>625</y>
+      <w>295</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;570.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>780</y>
+      <w>120</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>bg=yellow
+AdsModel
+--
+Chứa toàn bộ thông tin về một
+quảng cáo, bao gồm:
+- Thông tin tài khoản qc (ava, tên)
+- Thông tin quảng cáo (tiêu đề,
+mô tả), các mục nhỏ, các nút bấm
+mở URL,...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>235</x>
+      <y>765</y>
+      <w>615</w>
+      <h>380</h>
+    </coordinates>
+    <panel_attributes>Model</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>3375</x>
+      <y>760</y>
+      <w>615</w>
+      <h>380</h>
+    </coordinates>
+    <panel_attributes>Model</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1935</x>
+      <y>760</y>
+      <w>90</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>bg=yellow
+{Abstract}
+IUserInfo
+--
+name, avatar, id,...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2075</x>
+      <y>845</y>
+      <w>125</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>bg=yellow
+UserInfo
+--
+Thông tin một người dùng, độc lập
+với bất kì CTC nào</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2020</x>
+      <y>795</y>
+      <w>95</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;170.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2075</x>
+      <y>760</y>
+      <w>125</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>bg=yellow
+BasicInfo
+--
+Một implementation của IUserInfo,
+có thể dùng cho bất kì chỗ nào
+yêu cầu IUserInfo</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2020</x>
+      <y>775</y>
+      <w>65</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;110.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1795</x>
+      <y>845</y>
+      <w>95</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>bg=yellow
+ChatItemModel
+--
+Chứa thông tin chung về
+CTC. Ngày tạo, thành viên,...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1935</x>
+      <y>845</y>
+      <w>100</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>bg=yellow
+ConversationBasicInfo
+--
+Chứa thông tin chung về
+CTC.
+--
+Note: Class này vi phạm
+Liskov substitution principle</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1975</x>
+      <y>795</y>
+      <w>15</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1935</x>
+      <y>930</y>
+      <w>150</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>bg=yellow
+ApiContact
+--
+Không rõ chính xác là cái gì. Người hay CTC.
+
+--
+Dùng ở nhiều chỗ lắm.
+
+FriendCubit.getListNewsFriends()
+LoginCubit
+SocketSentLivechatMessageModel
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1975</x>
+      <y>895</y>
+      <w>15</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1885</x>
+      <y>855</y>
+      <w>60</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3535</x>
+      <y>780</y>
+      <w>60</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>bg=yellow
+ChatItemModel</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>1790</x>
+      <y>745</y>
+      <w>615</w>
+      <h>450</h>
+    </coordinates>
+    <panel_attributes>Model</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3385</x>
+      <y>780</y>
+      <w>125</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>bg=yellow
+ConversationModel
+--
+Thông tin chung về một CTC. Lấy từ
+API ver3.
+Có thể quy đổi về ChatItemModel</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3505</x>
+      <y>785</y>
+      <w>40</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1795</x>
+      <y>760</y>
+      <w>100</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>bg=yellow
+ChatMemberModel
+--
+Thông tin một người dùng,
+gắn liền với một CTC</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>875</x>
+      <y>2275</y>
+      <w>60</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>bg=YELLOW
+ChatItemModel</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>840</x>
+      <y>2280</y>
+      <w>45</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1805</x>
+      <y>1030</y>
+      <w>100</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>bg=YELLOW
+SocketSentMessageModel
+--
+Thông tin của một tin nhắn,
+gồm kiểu tin nhắn, nội dung,
+thời điểm tạo,...
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>740</x>
+      <y>2590</y>
+      <w>95</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>bg=YELLOW
+SocketSentMessageModel
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1890</x>
+      <y>775</y>
+      <w>55</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1935</x>
+      <y>1030</y>
+      <w>130</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>bg=YELLOW
+SocketSentLivechatMessageModel
+--
+Gần giống SocketSentMessageModel,
+nhưng dùng cho Livechat
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1975</x>
+      <y>1005</y>
+      <w>15</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2535</x>
+      <y>630</y>
+      <w>60</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=n</panel_attributes>
+    <additional_attributes>10.0;10.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>875</x>
+      <y>390</y>
+      <w>95</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>bg=green
+AuthBloc
+--
+??</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>975</x>
+      <y>390</y>
+      <w>145</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>bg=green
+ChatBloc
+--
+- Phản ứng với các sự kiện của
+tin nhắn: Thu hồi, chỉnh sửa,...
+- Lưu chat về local????
+- Gửi tin nhắn
+- Tạo CTC mới (bằng tryToChatPage())
+- Đánh dấu đã đọc trong CTC
+- ...?</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4010</x>
+      <y>860</y>
+      <w>70</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>bg=MAGENTA
+ChatClient
+--
+Nguồn data realtime
+dựa trên socket</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4135</x>
+      <y>785</y>
+      <w>70</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>bg=MAGENTA
+MqttClient
+--
+Nguồn data realtime 
+dựa trên Mqtt</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4115</x>
+      <y>845</y>
+      <w>110</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>bg=MAGENTA
+UnifiedRealtimeDataSource
+--
+Kết hợp tất cả các nguồn 
+data realtime vào một mối, để
+việc lắng nghe event không cần
+phải viết N đoạn code giống nhau
+cho N nguồn </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>4165</x>
+      <y>815</y>
+      <w>15</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>4075</x>
+      <y>875</y>
+      <w>50</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
+  </element>
+</diagram>

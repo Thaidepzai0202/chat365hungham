@@ -1,0 +1,7 @@
+<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Calendar Note">
+<path id="Rectangle 47" d="M20 10.5V7.5C20 6.39543 19.1046 5.5 18 5.5H6C4.89543 5.5 4 6.39543 4 7.5V10.5M20 10.5V19.5C20 20.6046 19.1046 21.5 18 21.5H6C4.89543 21.5 4 20.6046 4 19.5V10.5M20 10.5H4M8 3.5V7.5M16 3.5V7.5" stroke="#3B86D4" stroke-width="1.5" stroke-linecap="round"/>
+<line id="Line 1" x1="8" y1="14.5" x2="16" y2="14.5" stroke="#3B86D4" stroke-width="2" stroke-linecap="round"/>
+<line id="Line 2" x1="8" y1="17.5" x2="11" y2="17.5" stroke="#3B86D4" stroke-width="2" stroke-linecap="round"/>
+</g>
+</svg>

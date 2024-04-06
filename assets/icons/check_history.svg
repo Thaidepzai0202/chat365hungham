@@ -1,0 +1,19 @@
+<svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="check-circle-broken">
+<path id="Icon" d="M13.75 7.42858V8.00358C13.7492 9.35134 13.3128 10.6627 12.5058 11.7422C11.6989 12.8217 10.5646 13.6114 9.2721 13.9935C7.97964 14.3757 6.59829 14.3298 5.33404 13.8627C4.0698 13.3956 2.99041 12.5324 2.25685 11.4017C1.52329 10.2711 1.17487 8.93362 1.26355 7.58877C1.35223 6.24393 1.87325 4.96378 2.74892 3.93925C3.6246 2.91471 4.80799 2.20069 6.12262 1.90367C7.43725 1.60665 8.81267 1.74254 10.0438 2.29108M13.75 3L7.5 9.25625L5.625 7.38125" stroke="url(#paint0_linear_3000_106265)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_3000_106265" x1="1.2651" y1="7.73403" x2="13.7349" y2="7.73574" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3A85D4"/>
+<stop offset="0.131496" stop-color="#3E8CD8"/>
+<stop offset="0.264271" stop-color="#4295DC"/>
+<stop offset="0.400428" stop-color="#479FE0"/>
+<stop offset="0.505971" stop-color="#4BA6E3"/>
+<stop offset="0.60639" stop-color="#4BA6E3"/>
+<stop offset="0.706809" stop-color="#4BA6E3"/>
+<stop offset="0.805541" stop-color="#4BA6E3"/>
+<stop offset="0.917888" stop-color="#4BA6E3"/>
+<stop offset="1" stop-color="#4BA6E3"/>
+</linearGradient>
+</defs>
+</svg>

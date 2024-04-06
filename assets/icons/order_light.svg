@@ -1,0 +1,27 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="paint0_linear_2723_135079" x1="10.0013" y1="3.33301" x2="10.0013" y2="17.4997" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#4193DB"/>
+            <stop offset="1" stop-color="#4BA6E3"/>
+        </linearGradient>
+        <linearGradient id="paint1_linear_2723_135079" x1="10" y1="7.5" x2="10" y2="8.5" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#4193DB"/>
+            <stop offset="1" stop-color="#4BA6E3"/>
+        </linearGradient>
+        <linearGradient id="paint2_linear_2723_135079" x1="10" y1="10.833" x2="10" y2="11.833" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#4193DB"/>
+            <stop offset="1" stop-color="#4BA6E3"/>
+        </linearGradient>
+        <linearGradient id="paint3_linear_2723_135079" x1="9.16667" y1="14.167" x2="9.16667" y2="15.167" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#4193DB"/>
+            <stop offset="1" stop-color="#4BA6E3"/>
+        </linearGradient>
+    </defs>
+<g id="Order_light">
+<rect id="Rectangle 25" x="4.16797" y="3.33301" width="11.6667" height="14.1667" rx="2" stroke="url(#paint0_linear_2723_135079)" stroke-width="1.5"/>
+<path id="Vector 59" d="M7.5 7.5H12.5" stroke="url(#paint1_linear_2723_135079)" stroke-width="1.5" stroke-linecap="round"/>
+<path id="Vector 60" d="M7.5 10.833H12.5" stroke="url(#paint2_linear_2723_135079)" stroke-width="1.5" stroke-linecap="round"/>
+<path id="Vector 61" d="M7.5 14.167H10.8333" stroke="url(#paint3_linear_2723_135079)" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+
+</svg>

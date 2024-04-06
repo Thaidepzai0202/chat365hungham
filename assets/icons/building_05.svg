@@ -1,0 +1,20 @@
+<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="paint0_linear_2723_119634" x1="2.1881" y1="9.68083" x2="18.8145" y2="9.68337" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#3A85D4"/>
+            <stop offset="0.131496" stop-color="#3E8CD8"/>
+            <stop offset="0.264271" stop-color="#4295DC"/>
+            <stop offset="0.400428" stop-color="#479FE0"/>
+            <stop offset="0.505971" stop-color="#4BA6E3"/>
+            <stop offset="0.60639" stop-color="#4BA6E3"/>
+            <stop offset="0.706809" stop-color="#4BA6E3"/>
+            <stop offset="0.805541" stop-color="#4BA6E3"/>
+            <stop offset="0.917888" stop-color="#4BA6E3"/>
+            <stop offset="1" stop-color="#4BA6E3"/>
+        </linearGradient>
+    </defs>
+<g id="building-05">
+<path id="Icon" d="M11.3346 9.16667H15.3346C16.2681 9.16667 16.7348 9.16667 17.0913 9.34832C17.4049 9.50811 17.6599 9.76308 17.8196 10.0767C18.0013 10.4332 18.0013 10.8999 18.0013 11.8333V17.5M11.3346 17.5V5.16667C11.3346 4.23325 11.3346 3.76654 11.153 3.41002C10.9932 3.09641 10.7382 2.84144 10.4246 2.68166C10.0681 2.5 9.60139 2.5 8.66797 2.5H5.66797C4.73455 2.5 4.26784 2.5 3.91132 2.68166C3.59771 2.84144 3.34275 3.09641 3.18296 3.41002C3.0013 3.76654 3.0013 4.23325 3.0013 5.16667V17.5M18.8346 17.5H2.16797M5.91797 5.83333H8.41797M5.91797 9.16667H8.41797M5.91797 12.5H8.41797" stroke="url(#paint0_linear_2723_119634)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+</svg>
